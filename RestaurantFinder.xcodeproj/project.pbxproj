@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		B618DA7B1D2D496C00D82192 /* FoursquareClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA7A1D2D496C00D82192 /* FoursquareClient.swift */; };
 		B618DA7D1D2D4AA900D82192 /* FoursquareModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA7C1D2D4AA900D82192 /* FoursquareModels.swift */; };
+		B618DA7F1D2D651500D82192 /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B618DA7E1D2D651500D82192 /* RestaurantCell.swift */; };
 		B63B19FE1D2BF2D80054BC57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B19FD1D2BF2D80054BC57 /* AppDelegate.swift */; };
-		B63B1A001D2BF2D80054BC57 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B19FF1D2BF2D80054BC57 /* MasterViewController.swift */; };
+		B63B1A001D2BF2D80054BC57 /* RestaurantListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B19FF1D2BF2D80054BC57 /* RestaurantListController.swift */; };
 		B63B1A021D2BF2D80054BC57 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63B1A011D2BF2D80054BC57 /* DetailViewController.swift */; };
 		B63B1A051D2BF2D80054BC57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B63B1A031D2BF2D80054BC57 /* Main.storyboard */; };
 		B63B1A071D2BF2D80054BC57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B63B1A061D2BF2D80054BC57 /* Assets.xcassets */; };
@@ -21,9 +22,10 @@
 /* Begin PBXFileReference section */
 		B618DA7A1D2D496C00D82192 /* FoursquareClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareClient.swift; sourceTree = "<group>"; };
 		B618DA7C1D2D4AA900D82192 /* FoursquareModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoursquareModels.swift; sourceTree = "<group>"; };
+		B618DA7E1D2D651500D82192 /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
 		B63B19FA1D2BF2D80054BC57 /* RestaurantFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B63B19FD1D2BF2D80054BC57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B63B19FF1D2BF2D80054BC57 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		B63B19FF1D2BF2D80054BC57 /* RestaurantListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListController.swift; sourceTree = "<group>"; };
 		B63B1A011D2BF2D80054BC57 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		B63B1A041D2BF2D80054BC57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B63B1A061D2BF2D80054BC57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				B63B19FD1D2BF2D80054BC57 /* AppDelegate.swift */,
-				B63B19FF1D2BF2D80054BC57 /* MasterViewController.swift */,
+				B63B19FF1D2BF2D80054BC57 /* RestaurantListController.swift */,
 				B63B1A011D2BF2D80054BC57 /* DetailViewController.swift */,
 				B618DA7A1D2D496C00D82192 /* FoursquareClient.swift */,
 				B63B1A111D2BF6370054BC57 /* APIClient.swift */,
@@ -72,6 +74,7 @@
 				B63B1A081D2BF2D80054BC57 /* LaunchScreen.storyboard */,
 				B63B1A0B1D2BF2D80054BC57 /* Info.plist */,
 				B618DA7C1D2D4AA900D82192 /* FoursquareModels.swift */,
+				B618DA7E1D2D651500D82192 /* RestaurantCell.swift */,
 			);
 			path = RestaurantFinder;
 			sourceTree = "<group>";
@@ -149,10 +152,11 @@
 			files = (
 				B618DA7D1D2D4AA900D82192 /* FoursquareModels.swift in Sources */,
 				B63B1A021D2BF2D80054BC57 /* DetailViewController.swift in Sources */,
-				B63B1A001D2BF2D80054BC57 /* MasterViewController.swift in Sources */,
+				B63B1A001D2BF2D80054BC57 /* RestaurantListController.swift in Sources */,
 				B618DA7B1D2D496C00D82192 /* FoursquareClient.swift in Sources */,
 				B63B19FE1D2BF2D80054BC57 /* AppDelegate.swift in Sources */,
 				B63B1A121D2BF6370054BC57 /* APIClient.swift in Sources */,
+				B618DA7F1D2D651500D82192 /* RestaurantCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
